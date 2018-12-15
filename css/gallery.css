@@ -18,6 +18,7 @@
 
 .panel {
   padding: 0 18px;
+  text-align: center;
   display: none;
   background-color: white;
   overflow: hidden;

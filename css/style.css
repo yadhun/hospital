@@ -500,7 +500,7 @@ header .navbar .dropdown-menu a {
 }
 
 .section {
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 .cta-link {
@@ -701,7 +701,7 @@ header .navbar .dropdown-menu a {
 }
 
 .custom-tabs .tab-pane h2 {
-  font-size: 60px;
+  font-size: 53px;
   font-weight: 300;
 }
 
@@ -715,7 +715,7 @@ header .navbar .dropdown-menu a {
 }
 
 .site-footer {
-  padding: 7em 0;
+  padding: 3em 0;
   background: #f2f2f2;
   background: #283E56;
   color: rgba(255, 255, 255, 0.7);
@@ -995,4 +995,8 @@ header .navbar .dropdown-menu a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #355cc9;
+}
+#map {
+	height: 440px;
+	margin-bottom: 0px;
 }
