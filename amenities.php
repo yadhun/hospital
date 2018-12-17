@@ -66,30 +66,18 @@
     </header>
     <!-- END header -->
     
-    <section class="home-slider owl-carousel">
+    <section class="home-slider inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
         
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Care For You</h1>
+              <h1>Contact Us</h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
             </div>
           </div>
         </div>
 
-      </div>
-
-      <div class="slider-item" style="background-image: url('img/slider-1.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Provide Health Care Solutions</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-            </div>
-          </div>
-        </div>
-        
       </div>
 
     </section>

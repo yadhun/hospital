@@ -65,41 +65,28 @@
     </header>
     <!-- END header -->
     
-    <section class="home-slider owl-carousel">
+    <section class="home-slider inner-page owl-carousel">
       <div class="slider-item" style="background-image: url('img/hospital.jpg');">
         
         <div class="container">
           <div class="row slider-text align-items-center">
             <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Care For You</h1>
-              <p>Brindavan Hospital provides you Uncompromising Excellence Commitment to Care</p>
+              
+             
             </div>
           </div>
         </div>
 
-      </div>
-
-      <div class="slider-item" style="background-image: url('img/hospital.jpg');">
-        <div class="container">
-          <div class="row slider-text align-items-center">
-            <div class="col-md-7 col-sm-12 element-animate">
-              <h1>We Provide Health Care Solutions</h1>
-              <p>Walk through our expansive infrastructure with a single click <a href="amenities.php" class="btn btn-primary">Learn More</a></p>
-            </div>
-          </div>
-        </div>
-        
       </div>
 
     </section>
-    <!-- END slider -->
 
     
     <section class="container home-feature mb-5">
       <div class="row">
         <div class="col-md-4 p-0 one-col element-animate">
           <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">         
-            <h2>Vission</h2>
+            <h2>Policy</h2>
             <p>The Hospital harbours advanced medical equipment, excellent ambience and modren facilities, architecturally designed for maximum patient comfort and convenince. </p>
           </div>
          
@@ -113,7 +100,7 @@
         </div>
         <div class="col-md-4 p-0 three-col element-animate">
           <div class="col-inner p-xl-5 p-lg-5 p-md-4 p-sm-4 p-4">
-            <h2>Goal</h2>
+            <h2>Vission</h2>
             <p>Our motto is to provide technically superior and cost effective healthcare service to the people of Mysore and surrounding</p>
           </div>
           
@@ -144,14 +131,14 @@
                 <span class="icon flaticon-hospital"></span>
                 <h2 class="text-primary">Infrastructure</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+                
                 <p><a href="amenities.php" class="btn btn-primary">Know More</a></p>
               </div>
               <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                 <span class="icon flaticon-first-aid-kit"></span>
                 <h2 class="text-primary">Medical Services</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+                
                 <p><a href="medical_services.php" class="btn btn-primary">Know More</a></p>
               </div>
 
@@ -159,7 +146,7 @@
                 <span class="icon flaticon-doctor"></span>
                 <h2 class="text-primary">Expert Doctors</h2>
                 <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-                <p>Inventore fugit error iure nisi reiciendis fugiat illo pariatur quam sequi quod iusto facilis officiis nobis sit quis molestias asperiores rem, blanditiis! Commodi exercitationem vitae deserunt qui nihil ea, tempore et quam natus quaerat doloremque.</p>
+               
                 <p><a href="doctors.php" class="btn btn-primary">Know More</a></p>
               </div>
             </div>
