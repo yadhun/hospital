@@ -40,7 +40,7 @@
       </div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-          <a class="navbar-brand" href="index.php">LOGO<span></span>  </a>
+          <a class="navbar-brand" href="index.html">LOGO<span></span>  </a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -48,14 +48,14 @@
           <div class="collapse navbar-collapse" id="navbarsExample05">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.php">Home</a>
+                <a class="nav-link" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="services.php">Facilities</a>
+                  <a class="nav-link" href="services.html">Facilities</a>
                 </li>
 
               <li class="nav-item">
-                <a class="nav-link active" href="contact.php">Contact</a>
+                <a class="nav-link active" href="contact.html">Contact</a>
               </li>
             </ul>
           </div>
@@ -85,7 +85,9 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 mb-5 element-animate">
-              <div id="map" class="g_map"></div>
+              <div id="map" class="g_map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3897.8877796788606!2d76.62488711434824!3d12.323339532105908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7a902bb3e2bb%3A0x98da9c27bf9bbddd!2sBrindavan+Hospital!5e0!3m2!1sen!2sin!4v1545027335573" width="600" height="450" frameborder="0" style="border:0; width: -webkit-fill-available;" allowfullscreen></iframe>
+              </div>
           </div>
           <div class="col-md-1"></div>
           <div class="col-md-5 element-animate">
@@ -117,10 +119,10 @@
               <h3>Quick Links</h3>
               <ul class="footer-link list-unstyled">
 
-                <li><a href="services.php">Facilities</a></li>
-                <li><a href="amenities.php">Infrastructure</a></li>
+                <li><a href="services.html">Facilities</a></li>
+                <li><a href="amenities.html">Infrastructure</a></li>
   
-                <li><a href="doctors.php">Know About our Doctors</a></li>
+                <li><a href="doctors.html">Know About our Doctors</a></li>
               </ul>
             </div>
   
@@ -171,36 +173,8 @@
     <script src="js/jquery.timepicker.min.js"></script>
     <script src="js/jquery.waypoints.min.js"></script>
     <script src="js/main.js"></script>
-    <script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script> 
+   
     <!-- begin map script--> 
-<script type="text/javascript">
-  /*==========  Map  ==========*/
-  var map;
-  function initialize_map() {
-  if ($('#map').length) {
-    var myLatLng = new google.maps.LatLng(-37.814199, 144.961560);
-    var mapOptions = {
-      zoom: 17,
-      center: myLatLng,
-      scrollwheel: false,
-      panControl: false,
-      zoomControl: true,
-      scaleControl: false,
-      mapTypeControl: false,
-      streetViewControl: false
-    };
-    map = new google.maps.Map(document.getElementById('map'), mapOptions);
-    var marker = new google.maps.Marker({
-      position: myLatLng,
-      map: map,
-      tittle: 'Envato',
-      icon: './images/map-locator.png'
-    });
-  } else {
-    return false;
-  }
-  }
-  google.maps.event.addDomListener(window, 'load', initialize_map);
-  </script>
+
   </body>
 </html>
