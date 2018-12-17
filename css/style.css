@@ -368,6 +368,11 @@ header .navbar .dropdown-menu a {
   z-index: 2;
 }
 
+.owl-carousel .owl-stage, .owl-carousel.owl-drag .owl-item{
+    -ms-touch-action: auto;
+        touch-action: auto;
+}
+
 .home-feature .one-col, .home-feature .two-col, .home-feature .three-col {
   position: relative;
   -webkit-transition: .3s all ease;
